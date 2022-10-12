@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker exec -it -u $(id -u):$(id -g) iriscrm_app_1 php import.php $1 $2
